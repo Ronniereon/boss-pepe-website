@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Boss Pepe - The King of Meme Coins">
+    <meta name="theme-color" content="#ffcc00">
+    <title>Boss Pepe - Meme Coin</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #ffcc00;
+            color: #333;
+            text-align: center;
+            padding: 50px;
+            margin: 0;
+        }
+        h1 {
+            font-size: 3em;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            margin-bottom: 40px;
+        }
+        .telegram-button {
+            background-color: #00aaff;
+            color: white;
+            padding: 15px 30px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-size: 1.2em;
+            display: inline-block;
+            transition: background-color 0.3s;
+        }
+        .telegram-button:hover {
+            background-color: #0077cc;
+        }
+
+        .logo {
+            margin-bottom: 30px;
+        }
+
+        .banner {
+            width: 100%;
+            margin-bottom: 50px;
+        }
+
+        @keyframes shake {
+            0% { transform: translateX(0); }
+            10% { transform: translateX(-5px); }
+            20% { transform: translateX(5px); }
+            30% { transform: translateX(-5px); }
+            40% { transform: translateX(5px); }
+            50% { transform: translateX(0); }
+        }
+        .meme-image {
+            margin-top: 50px;
+            animation: shake 2s infinite;
+        }
+    </style>
+</head>
+<body>
+    <!-- Logo -->
+    <div class="logo">
+        <img src="logo.png" alt="Boss Pepe Logo" width="200">
+    </div>
+
+    <!-- Banner -->
+    <div class="banner">
+        <img src="banner.png" alt="Boss Pepe Banner">
+    </div>
+
+    <h1>Boss Pepe</h1>
+    <p>Welcome to the Meme Kingdom. Click below to join the fun!</p>
+    <a href="https://t.me/yourtelegramchannel" target="_blank" class="telegram-button">Join Telegram</a>
+    <div class="meme-image">
+        <img src="https://example.com/boss-pepe-meme.png" alt="Boss Pepe Meme" width="300">
+    </div>
+</body>
+</html>
